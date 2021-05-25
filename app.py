@@ -2,7 +2,7 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 import pickle
 
-pickle_in = open("/Users/kalashrana/Desktop/Heart_app/model.pkl" , "rb")
+pickle_in = open("model.pkl" , "rb")
 classifier = pickle.load(pickle_in)
 
 sc_X = StandardScaler()
