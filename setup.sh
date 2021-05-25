@@ -1,9 +1,8 @@
-makedir -p ~/.Heart_app/
-
+mkdir -p ~/.streamlit/
 echo "\
 [server]\n\
+headless = true\n\
 port = $PORT\n\
 enableCORS = false\n\
-headless = true\n\
 \n\
-" > ~/.Heart_app.toml
+" > ~/.streamlit/config.toml
